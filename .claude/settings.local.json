@@ -1,7 +1,0 @@
-{
-  "permissions": {
-    "allow": [
-      "Bash(node --check /Users/nandinigrover/leetcode-helper/content.js)"
-    ]
-  }
-}
