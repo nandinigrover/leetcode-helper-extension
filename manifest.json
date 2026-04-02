@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "LeetCode Helper",
+    "version": "0.1.0",
+    "description": "A simple Chrome extension that gives LeetCode hints.",
+    "permissions": ["activeTab", "storage"],
+    "host_permissions": ["https://leetcode.com/*"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "content_scripts": [
+      {
+        "matches": ["https://leetcode.com/problems/*"],
+        "js": ["content.js"]
+      }
+    ]
+  }
