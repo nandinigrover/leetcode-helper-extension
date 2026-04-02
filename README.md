@@ -24,3 +24,12 @@ A Chrome extension that adds progressive, non-spoiler hints to LeetCode problems
 - AI-generated hints
 - Notes per problem
 - Save progress
+
+## Screenshots
+
+### Button
+![Button](screenshot/button.png)
+
+### Hint Panel
+![Hint Panel](screenshot/hints.png)
+
